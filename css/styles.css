@@ -1,0 +1,126 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v48-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v48-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v20-cyrillic_latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v20-cyrillic_latin-700.woff2") format("woff2");
+}
+
+:root {
+  --color-brand: #2b7fff;
+  --color-primary-light: #ffffff;
+  --color-primary-dark: #011c44;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+  font-weight: 400;
+  font-size: 22px;
+}
+/*button styles */
+.button {
+  font-weight: 600;
+  background-color: var(--color-brand);
+  color: var(--color-primary-light);
+  border: 2px solid var(--color-brand);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+}
+.button:active {
+  background-color: var(--color-brand);
+  color: var(--color-primary-light);
+}
+/*link styles */
+.link {
+  color: var(--color-primary-dark);
+  line-height: 1.5;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 18px;
+}
+.link:hover {
+  color: var(--color-brand-light);
+  font-weight: 600;
+}
+.link .link-about {
+  color: var(--color-brand);
+  font-weight: 700;
+}
+/*hero section styles */
+.hero-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+.hero-description {
+  font-size: 12px;
+}
+.section-title {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.section-title .brand-head {
+  color: var(--color-brand);
+}
+/*about us section styles */
+.about-us-section-text {
+  line-height: 1.5;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+.about-us-section-text .brand-text {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+/*why us section styles */
+.why-us-text {
+  line-height: 1.5;
+  text-align: center;
+}
+/*services section styles */
+.service-text {
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 400;
+}
+/*adress section styles */
+.address-link {
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: var(--color-primary-light);
+}
+.address-copyright {
+  font-size: 14px;
+  font-weight: 300;
+  color: #a18268;
+}

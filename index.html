@@ -16,10 +16,10 @@
         <nav>
             <a href="./index.html"><img src="./images/logo.svg" alt="Beauty Salon Logo" /></a>
             <ul>
-                <li><a href="#about-us-section">Про нас</a></li>
-                <li><a href="#why-us-section">Чому ми</a></li>
-                <li><a href="#services-section">Наші процедури</a></li>
-                <li><a href="#contacts-section">Контакти</a></li>
+                <li><a class="link" href="#about-us-section"><span class="link-about">Про нас</span></a></li>
+                <li><a class="link" href="#why-us-section">Чому ми</a></li>
+                <li><a class="link" href="#services-section">Наші процедури</a></li>
+                <li><a class="link" href="#contacts-section">Контакти</a></li>
             </ul>
         </nav>
         <a href="#"><img src="./images/phone-logo.svg" alt="Phone icon" /></a>
@@ -32,13 +32,14 @@
             <h1 class="hero-title">Косметологічна клініка</h1>
             <img src="./images/logo.svg" alt="Beauty Salon Logo" width="529" height="228" />
             <button class="button" type="button">Записатися на прийом</button>
-            <p>Запишись та отримай безкоштовну консультацію від нашого косметолога</p>
+            <p class="hero-description">Запишись та отримай безкоштовну консультацію від нашого косметолога</p>
         </section>
         <section id="about-us-section">
-            <h2>Перевтілюйтесь в <span class="">beauty zone!</span></h2>
-            <p>Наша косметологічна клініка пропонує вам професійні послуги
+            <h2 class="section-title">Перевтілюйтесь в <span class="brand-head">beauty zone!</span></h2>
+            <p class="about-us-section-text">Наша косметологічна клініка пропонує вам професійні послуги
                 з догляду за шкірою обличчя та тіла.</p>
-            <p>B <span class="">beauty zone</span> ми гарантуємо найвищі стандарти якості
+            <p class="about-us-section-text">B <span class="brand-text">beauty zone</span> ми гарантуємо найвищі
+                стандарти якості
                 та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та
                 молодість.
                 З нами краса назавжди!</p>
@@ -46,45 +47,49 @@
             <img src="./images/lady-after.jpg" alt="Lady After" />
         </section>
         <section id="why-us-section">
-            <h2>Чому люди <span>обирають нас</span></h2>
+            <h2 class="section-title">Чому люди <span class="brand-head">обирають нас</span></h2>
             <ul>
                 <li>
-                    <article>
-                        <img src="./images/atom-logo.svg" alt="Atom icon" />
-                        <p>Всі наші косметологи мають вищу медичну освіту
-                            та стаж роботи від 5 років</p>
-                    </article>
+                    <img src="./images/atom-logo.svg" alt="Atom icon" />
+                    <p class="why-us-text">Всі наші косметологи мають вищу медичну освіту
+                        та стаж роботи від 5 років</p>
+
                 </li>
                 <li>
-                    <article>
-                        <img src="./images/cosmetics_logo.svg" alt="Cosmetics icon" />
-                        <p>Використовуємо тільки професійне обладнання та косметику, перевірену часом</p>
-                    </article>
+                    <img src="./images/cosmetics_logo.svg" alt="Cosmetics icon" />
+                    <p class="why-us-text">Використовуємо тільки професійне обладнання та косметику, перевірену часом
+                    </p>
+
                 </li>
                 <li>
-                    <article>
-                        <img src="./images/crown-logo.svg" alt="Crown icon" />
-                        <p>Наша мета - підкреслити переваги та приховати недоліки, а не переробити</p>
-                    </article>
+                    <img src="./images/crown-logo.svg" alt="Crown icon" />
+                    <p class="why-us-text">Наша мета - підкреслити переваги та приховати недоліки, а не переробити</p>
+
                 </li>
             </ul>
         </section>
         <section id="services-section">
-            <h2>Наші процедури</h2>
+            <h2 class="section-title">Наші <span class="brand-head">процедури</span></h2>
             <ul>
                 <li>
-                    <h3>Маски для обличчя</h3>
+                    <article>
+                        <h3 class="service-text">Маски для обличчя</h3>
+                    </article>
                 </li>
                 <li>
-                    <h3>Догляд за тілом</h3>
+                    <article>
+                        <h3 class="service-text">Догляд за тілом</h3>
+                    </article>
                 </li>
                 <li>
-                    <h3>Догляд за волоссям</h3>
+                    <article>
+                        <h3 class="service-text">Догляд за волоссям</h3>
+                    </article>
                 </li>
             </ul>
         </section>
         <section id="contacts-section">
-            <h2>Як нас знайти</h2>
+            <h2 class="section-title">Як нас <span class="brand-head">знайти</span></h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1798.7331380608605!2d30.489551558584196!3d50.3890609890983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8c384542a8d%3A0x748c656298a31708!2z0JPRg9GA0YLQvtC20LjRgtC-0Log4oSWMTYg0JrQndCjINGW0LzQtdC90ZYg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LA!5e0!3m2!1suk!2sua!4v1752750491410!5m2!1suk!2sua"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -94,24 +99,24 @@
     <footer>
         <nav>
             <ul>
-                <img src="./images/logo.svg" alt="Beauty Salon Logo" />
-                <li><a href="#about-us-section">Про нас</a></li>
-                <li><a href="#why-us-section">Чому ми</a></li>
-                <li><a href="#services-section">Наші процедури</a></li>
-                <li><a href="#contacts-section">Контакти</a></li>
+                <li><a href="./index.html"><img src="./images/logo.svg" alt="Beauty Salon Logo" /></a></li>
+                <li><a class="address-link" href="#about-us-section">Про нас</a></li>
+                <li><a class="address-link" href="#why-us-section">Чому ми</a></li>
+                <li><a class="address-link" href="#services-section">Наші процедури</a></li>
+                <li><a class="address-link" href="#contacts-section">Контакти</a></li>
             </ul>
         </nav>
         <address>
             <ul>
-                <li><a href="tel:+380960000007">+38(096)000 00 07</a></li>
-                <li><a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a></li>
-                <li><a href="https://g.co/kgs/PJswQ6B" target="_blank">Україна, м. Київ,
+                <li><a class="address-link" href="tel:+380960000007">+38(096)000 00 07</a></li>
+                <li><a class="address-link" href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a></li>
+                <li><a class="address-link" href="https://g.co/kgs/PJswQ6B" target="_blank">Україна, м. Київ,
                         вулиця Зої Бутенко, 6</a></li>
                 <li><a href="#"><img src="./images/phone-logo.svg" alt="Phone icon" /></a></li>
                 <li><a href="#"><img src="./images/facebook-logo.svg" alt="Facebook icon" /></a></li>
                 <li><a href="#"><img src="./images/instagram-logo.svg" alt="Instagram icon" /></a></li>
             </ul>
-            <a href="#" target="_blank">Політика конфіденційності</a>
+            <a class="address-link" href="#" target="_blank">Політика конфіденційності</a>
             <p class="address-copyright">&copy; 2025 Дані захищені</p>
         </address>
     </footer>
